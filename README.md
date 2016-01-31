@@ -22,3 +22,11 @@ In other words, the previous component could be rewritten as a file called `Hell
 ```js
 <div>Hello {props.name}</div>;
 ```
+
+(The `props` argument would always be named “props”)
+
+### Questions
+
+- Would this be useful?
+- How would we specify `propTypes` and `defaultProps`?
+- Do we need to handle context?
