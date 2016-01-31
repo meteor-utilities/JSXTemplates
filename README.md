@@ -1,6 +1,6 @@
 # Stateless-Templates
 
-(Note: this is obviously a W.I.P. Readme-driven development!)
+(Note: this doesn't actually exist yet. Readme-driven development FTW!)
 
 One of the major concerns of newcomers to React is how it mixes HTML and JavaScript, which harms separation of concerns. The typical use case being working with a designer who suddenly has to understand JavaScript to modify even the simplest template. 
 
