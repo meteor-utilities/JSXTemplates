@@ -25,6 +25,10 @@ In other words, the previous component could be rewritten as a file called `Hell
 
 The `props` argument would always be named “props”. Or possibly, you'd just be able to write `{name}`, although that would break the compatibility with "regular" functional stateless components. 
 
+### Isn't This Just Like Blaze?
+
+No! Blaze uses the Spacebars templating language. This is still plain old JSX. It's basically exactly what you have in your component already, except with the function declaration removed. 
+
 ### Questions
 
 - Would this be useful?
