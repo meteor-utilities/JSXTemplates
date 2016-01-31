@@ -23,7 +23,7 @@ In other words, the previous component could be rewritten as a file called `Hell
 <div>Hello {props.name}</div>;
 ```
 
-(The `props` argument would always be named “props”)
+The `props` argument would always be named “props”. Or possibly, you'd just be able to write `{name}`, although that would break the compatibility with "regular" functional stateless components. 
 
 ### Questions
 
