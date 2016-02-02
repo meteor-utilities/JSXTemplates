@@ -2,7 +2,7 @@ Package.describe({
   name: "utilities:jsxtemplates",
   version: "0.1.0",
   summary: "JSX-based templates",
-  git: "https://github.com/meteor-utilities/Stateless-Templates/",
+  git: "https://github.com/meteor-utilities/jsxtemplates/",
   documentation: "README.md"
 });
 

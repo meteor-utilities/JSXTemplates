@@ -1,4 +1,4 @@
-# Stateless-Templates
+# JSX Templates
 
 ### Installation
 
