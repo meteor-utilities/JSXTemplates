@@ -10,6 +10,9 @@ function handler(compileStep) {
 
   var fullSource = prefix+source+suffix;
 
+  console.log(compileStep)
+
+  console.log(fullSource)
   compileStep.addJavaScript({
     path: outputFile,
     sourcePath: compileStep.inputPath,

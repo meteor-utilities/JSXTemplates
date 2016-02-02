@@ -4,6 +4,10 @@
 
 `meteor add utilities:jsxtemplates`
 
+### Demo
+
+Here's [a fork of the Simple Todos example app](https://github.com/SachaG/simple-todos-react-jsxt) using JSX templates. 
+
 ### Concept
 
 One of the major concerns of newcomers to React is how it mixes HTML and JavaScript, which harms separation of concerns. The typical use case being working with a designer who suddenly has to understand JavaScript to modify even the simplest template. 
