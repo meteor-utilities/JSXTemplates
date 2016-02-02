@@ -1,5 +1,5 @@
 Package.describe({
-  name: "meteor-utilities:jsxtemplates",
+  name: "utilities:jsxtemplates",
   version: "0.1.0",
   summary: "JSX-based templates",
   git: "https://github.com/meteor-utilities/Stateless-Templates/",
@@ -24,5 +24,5 @@ Package.registerBuildPlugin({
 });
 
 Package.onUse(function(api) {
-  
+
 });

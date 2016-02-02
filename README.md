@@ -1,5 +1,11 @@
 # Stateless-Templates
 
+### Installation
+
+`meteor add utilities:jsxtemplates`
+
+### Concept
+
 One of the major concerns of newcomers to React is how it mixes HTML and JavaScript, which harms separation of concerns. The typical use case being working with a designer who suddenly has to understand JavaScript to modify even the simplest template. 
 
 This can be alleviated by using stateless components (which should only contain minimal logic), but even so there is still some JavaScript boilerplate involved (function declaration, return statement, etc.):
@@ -23,7 +29,7 @@ In other words, the previous component could be rewritten as a file called `Hell
 
 Note: the `props` argument is always named “props”.
 
-### Isn't This Just Like Blaze?
+#### Isn't This Just Like Blaze?
 
 No! Blaze uses the Spacebars templating language. This is still plain old JSX. It's basically exactly what you have in your component already, except with the function declaration removed. 
 
