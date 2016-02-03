@@ -5,14 +5,18 @@ function handler(compileStep) {
   var outputFile = compileStep.inputPath + ".js";
   var componentName = compileStep.pathForSourceMap.slice(0, -5);
 
+  var htmlStart = source.indexOf("<");
+  var htmlEnd = source.lastIndexOf(">");
+
   var prefix = componentName + " = (props) => (\n";
   var suffix = "\n)";
 
-  var fullSource = prefix+source+suffix;
+  var headerJS = source.slice(0, htmlStart);
+  var html = source.slice(htmlStart, htmlEnd+1);
+  var footerJS = source.slice(htmlEnd+1);
 
-  console.log(compileStep)
+  var fullSource = headerJS + prefix + html + suffix + footerJS;
 
-  console.log(fullSource)
   compileStep.addJavaScript({
     path: outputFile,
     sourcePath: compileStep.inputPath,

@@ -1,6 +1,6 @@
 Package.describe({
   name: "utilities:jsxtemplates",
-  version: "0.1.1",
+  version: "0.1.2",
   summary: "JSX-based templates",
   git: "https://github.com/meteor-utilities/jsxtemplates/",
   documentation: "README.md"
